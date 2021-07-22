@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* All page */
+.allPage {
+    background-image:url(img/pozadi.jpg);
+    height: 100vh;
+}
+
+.playground {
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+    position: absolute;
+    top: 10%;
+    left:10%;
+}
+/*total score */
+.totalScore {
+    font-size: 30px;
+    color: #EED2EE;
+    font-weight: bold;
+    text-shadow:0 2px black ;
+    
+}
+.totalScore p:nth-child(2){
+    font-size: 40px;
+    text-align: center;
+}
+.totalScore0{
+    position:absolute;
+    top: 15%;
+    left: 10%;
+    
+}
+.totalScore1{
+    position:absolute;
+    top: 15%;
+    left: 70%;
+
+}
+
+/* Current score */
+.currentScore{
+    width: 150px;
+    height: 150px;
+    background-color: #EED2EE;
+    border-radius:10%;
+}
+.currentScore p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.currentScore p:nth-child(2){
+    font-size: 40px;
+}
+.currentScore0{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+.currentScore1{
+    position: absolute;
+    top: 40%;
+    right:15%;
+}
+
+/* Middle text*/
+.middleText{
+    position:absolute;
+    top: 65%;
+    left: 38%;
+    text-align:center;
+    font-size:35px;
+    color: black;
+    font-weight: bold;
+    
+}
+.btn{
+    border: 2px solid #97FFFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color:#EED2EE;
+}
+
+.btn:hover {
+    border: 2px solid #FFC1C1;
+    background-color: #FFC1C1;
+}
+
+/* Dice*/
+.dice {
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    
+}
+.diceImage{
+    border-radius: 20px;
+    border: 2px solid black;
+}
+/* Active player */
+.active {
+    color: #EE6AA7;
+    border: 2px solid black;
+    padding: 5px 10 px;
+    border-radius: 10px;
+    background-color: #EED2EE;
+}
